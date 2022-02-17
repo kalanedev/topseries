@@ -1,0 +1,93 @@
+.header {
+    height: 530px;
+    width: 1030px;
+    object-fit: cover;
+    background-image: linear-gradient(180deg, rgba(12, 13, 23, 0) 0%, #0C0D17 80%),url("https://images2.alphacoders.com/485/thumbbig-485320.webp");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.tudo1 {
+    position: relative;
+    }
+.cima {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 150px;
+}
+.botao {
+    position: absolute;
+    width: 177px;
+    height: 35px;
+    top: 32px;
+    left: 600px;
+    background: #FFD12D;
+    border-radius: 12px;
+    border: none;
+}
+.divbut {
+    display: flex;
+    justify-content: right;
+    
+}
+.stars {
+    color: yellow;
+}
+.title {
+    color: white;
+    font-family: Inter;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 72px;
+    line-height: 87px;
+}
+p {
+    color: #7B8186;
+}
+span {
+    color: yellow;
+}
+a {
+    color: yellow;
+}
+.header-info {
+    margin-top: 100px;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: normal;
+    width: 500px;
+    
+}
+
+.parte2 {
+    background-color: #0C0D17;
+}
+
+.recommended-title {
+    font-family: Inter;
+    font-weight: bold;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-left: 50px;
+}
+
+.recommended-image {
+    background-repeat:no-repeat;
+    background-size: cover;
+    object-fit: scale-down;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.recommended {
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommended-item {
+    width: 500px;
+    height: 500px;
+    margin-right: 40px;
+}
